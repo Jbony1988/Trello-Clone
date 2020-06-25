@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { AddItemButton } from "./styles";
 import { NewItemForm } from "./NewItemForm";
 
+// interface type
 interface AddNewItemProps {
   onAdd(text: string): void;
   toggleButtonText: string;
